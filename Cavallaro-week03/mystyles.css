@@ -1,0 +1,59 @@
+body {
+  background-color: darkgrey;
+  color: black;
+}
+.past {
+  color: pink;
+}
+
+#present {
+  color: yellow;
+}
+
+.roberta {
+  color: blue;
+  font-variant-caps: petite-caps;
+}
+
+#image {
+  width: 500px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+#img2 {
+  width: 500px;
+  height: 400px;
+  padding-left: 2rem;
+  box-shadow: 10px 10px 10px 10px lightblue;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: orange;
+}
+a:hover {
+  background-color: hotpink;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:active {
+  color: yellow;
+}
+form {
+  border: inset;
+  background: border-box;
+  background-color: white;
+  font-size: larger;
+  display: inline-grid;
+}
+.button {
+  place-self: center;
+}
+.button:hover {
+  color: red;
+}
